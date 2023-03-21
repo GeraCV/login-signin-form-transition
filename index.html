@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>sign In - sign Up</title>
+</head>
+
+<body>
+    <main class="main-content">
+        <div class="container-principal">
+            <div class="container-login-form container-principal-information" id="container-login">
+                <h3 class="title-form"> Inicio de sesión </h3>
+                <div class="container-social-media">
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-facebook icon-social-media"></i>
+                    </div>
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-google-plus-g icon-social-media"></i>
+                    </div>
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-github icon-social-media"></i>
+                    </div>
+                </div>
+                <div class="container-form">
+                    <form class="form-login">
+                        <input type="text" class="form-input" placeholder="Correo electrónico">
+                        <input type="password" class="form-input" placeholder="Contraseña">
+                        <button class="btn-submit"> Iniciar sesión </button>
+                    </form>
+                </div>
+            </div>
+            <div class="container-signup container-principal-information" id="container-signup">
+                <h3 class="title-form"> Regístrate </h3>
+                <div class="container-social-media">
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-facebook icon-social-media"></i>
+                    </div>
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-google-plus-g icon-social-media"></i>
+                    </div>
+                    <div class="container-item-social-media">
+                        <i class="fa-brands fa-github icon-social-media"></i>
+                    </div>
+                </div>
+                <div class="container-form">
+                    <form class="form-signin">
+                        <input type="password" class="form-input" placeholder="Nombre">
+                        <input type="text" class="form-input" placeholder="Correo electrónico">
+                        <input type="password" class="form-input" placeholder="Contraseña">
+                        <button class="btn-submit"> Registrarme </button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="container-description" id="container-login-description">
+                <p class="description-text description-title">
+                    Hola !
+                </p>
+                <p class="description-text">
+                    ¿No tienes una cuenta?
+                </p>
+                <p class="description-text">
+                    ¡Regístrate!
+                </p>
+                <button class="btn-description" id="btn-show-form-signin">
+                    Registrarse
+                </button>
+            </div>
+            <div class="container-description" id="container-signup-description">
+                <p class="description-text description-title">
+                    Hola !
+                </p>
+                <p class="description-text">
+                    ¿Ya tienes una cuenta?
+                </p>
+                <p class="description-text">
+                    ¡Inicia sesión!
+                </p>
+                <button class="btn-description" id="btn-show-form-login">
+                    Iniciar sesión
+                </button>
+            </div>
+            <div class="container-background" id="container-background">
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+
+</html>
